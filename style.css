@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: #e0e1dd;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.name h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0d1b2a;
+    height: 50px;
+    color: #e0e1dd;
+}
+.name h2:hover{
+    cursor: auto;
+}
+.options{
+    height: 49vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.icon img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+.icon img:hover{
+    border: 5px solid #0d1b2a;
+    cursor: pointer;
+}
+.scorecard{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 70px;
+    width: 400px;
+    border: 3px solid #0d1b2a;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #778da9;
+    cursor: auto;
+}
+h3{
+    color: #0d1b2a;
+    padding-bottom: 4px;
+}
+#message{
+    margin-top: 10px;
+    height: 70px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #0d1b2a;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: #778da9;
+}
+.new{
+    margin-top: 10px;
+    height: 35px;
+    width: 400px;
+    background-color: #0d1b2a;
+    border: 3px solid #0d1b2a;
+    border-radius: 5px;
+    color: #89a3c4;
+    font-size: 20px;
+}
+.new:hover{
+    cursor: pointer;
+    background-color: #778da9;
+    color: #0d1b2a;
+}
